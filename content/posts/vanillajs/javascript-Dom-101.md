@@ -7,9 +7,11 @@ canonical_url: true
 tags: ['javascript', 'Dom', 'Api']
 ---
 
-As a developer, creating web pages or web app, most of the time you will likely be manipulating the Document structure in one way or the other. It is usually done by using the Document Object Model which is DOM for short. The DOM is a set of APIs for controlling styling and HTML information that makes heavy use of the Document.
+As a developer, creating web pages or web app, most of the time you will likely be manipulating the Document structure in one way or the other.
 
-#Working with the Dom
+It is usually done by using the Document Object Model which is DOM for short. The DOM is a set of APIs for controlling styling and HTML information that makes heavy use of the Document.
+
+Working with the Dom
 
 let's try to manipulate a HTML button using the DOM. First the HTML document.
 
