@@ -14,6 +14,15 @@ module.exports = {
   },
 
   plugins: [
+
+    {
+        
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-122741298-3'
+      }
+    },
+
     {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
@@ -27,13 +36,9 @@ module.exports = {
             create: true
           }
         }
-      }
-/*
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: ''
-      }*/
+      }, 
     }
+
   ],
 
   transformers: {
