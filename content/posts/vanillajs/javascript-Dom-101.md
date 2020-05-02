@@ -1,7 +1,7 @@
 ---
 title: "Introduction to javaScript DOM 101"
-description: "Detailed Introduction to javaScript Dom API. Understanding javaScript Dom and how manipulate Html with the Dom."
-date: 2020-04-29
+description: "As a developer, creating web pages or web app, most of the time you will likely be manipulating the Document structure in one way or the other. It is usually done by using..."
+date: 2020-05-3
 published: true
 canonical_url: true
 tags: ['javascript', 'Dom', 'Api']
@@ -77,4 +77,4 @@ function doSomething(){
   return(alert('you clicked on the button'));
 }
 ```
-This is just a tiny piece of what can be done with the DOM. you can check out the [w3school](http://docutils.sourceforge.net/mirror/setext.html) DOM tutorial on some of the amazing things you can do with the DOM API. [Mozilla javaScript tutorial](http://docutils.sourceforge.net/mirror/setext.html) also have an amazing tutorial on DOM API.
+This is just a tiny piece of what can be done with the DOM. you can check out the [w3school](https://www.w3schools.com/js/js_htmldom_methods.asp) DOM tutorial on some of the amazing things you can do with the DOM API. [Mozilla javaScript tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) also have an amazing tutorial on DOM API.
