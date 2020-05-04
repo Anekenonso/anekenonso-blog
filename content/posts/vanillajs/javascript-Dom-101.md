@@ -1,7 +1,7 @@
 ---
 title: "Introduction to javaScript DOM 101"
 description: "As a developer, creating web pages or web app, most of the time you will likely be manipulating the Document structure in one way or the other. It is usually done by using..."
-date: 2020-05-02
+date: 2020-05-03
 published: true
 canonical_url: true
 tags: ['javascript', 'Dom', 'Api']
