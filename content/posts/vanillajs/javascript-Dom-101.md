@@ -53,7 +53,7 @@ If we save the code and open it on a web browser, and click on the button, we sh
 
 lets try to understand the code above. first we have the javaScript code at the button just before the clossing body tag.
 
-```javaScript
+```javascript
  const button = document.getElementById('btn');
      button.addEventListener('click', doSomething);
 
@@ -64,17 +64,17 @@ lets try to understand the code above. first we have the javaScript code at the 
 
 what this code does is that, first we grab the document that we want to manipulate and attach it to a variable, which is button.
 
-```javaScript
+```javascript
 const button = document.getElementById('btn');
 ```
 secondary we attach an event listener to the button, in this case it is the **click** event and a function that will be triggered once the event happen.
 
-```javaScript
+```javascript
 button.addEventListener('click', doSomething);
 ```
 the function that runs once we click on the button.
 
-```javaScript
+```javascript
 function doSomething(){
   return(alert('you clicked on the button'));
 }
