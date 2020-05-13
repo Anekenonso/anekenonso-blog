@@ -1,7 +1,7 @@
 ---
 title: "Introduction to javaScript DOM 102"
 description: "The javascript DOM API have a lot of interesting features, and can be used to do cool stuffs like appending a new paragraph, creating a pop-up message "
-date: 2020-05-06
+date: 2020-05-13
 published: true
 canonical_url: true
 tags: ['javascript', 'Dom', 'Api']
@@ -50,4 +50,4 @@ this will give you an **array** of everything in the **html** element.
 
 A lot can be done using the javascript **Dom Api**. this is just a tiny piece of what you can do with the **Dom Api**.
 
-the code for this post is availabel on [github](https://github.com/Anekenonso/domApi102).
+the code for this post is available on [github](https://github.com/Anekenonso/domApi102).
