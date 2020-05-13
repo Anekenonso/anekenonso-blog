@@ -40,7 +40,7 @@ console.log(document.doctype);
 You can get the head and body tag
 ```javascript
 console.log(document.head);
-``` 
+```
 this will print out everything in the head tag to the console. same thing with the body tag.
 
 ```javascript
@@ -50,4 +50,4 @@ this will give you an **array** of everything in the **html** element.
 
 A lot can be done using the javascript **Dom Api**. this is just a tiny piece of what you can do with the **Dom Api**.
 
-the code for this post is availabel on (github)[https://github.com/Anekenonso/domApi102].
+the code for this post is availabel on [github](https://github.com/Anekenonso/domApi102).
