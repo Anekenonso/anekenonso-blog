@@ -1,7 +1,7 @@
 ---
 title: 10days of react-native day-1
 date: 2020-05-30
-published: true
+published: false
 tags: ['React-native', 'Mobile Development']
 cover_image: ../images/set-up-complete.png
 canonical_url: true
