@@ -30,6 +30,7 @@ export default {
 
 <style lang="scss">
 .post-card {
+  height: 5%;
   margin-bottom: var(--space);
   position: relative;
 

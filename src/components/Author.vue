@@ -8,12 +8,17 @@
 		</h1>
 
 		<p class="author__intro">
-			Personal Blog by Okenwa Kenneth. He is a software developer, he is passionate about cyber security and making the web save for everyone.
+			I am a pursuer of professional development, a lover of music, cybersecurity, and remote work. I have continued to enhance my career in
+software development by continuously learning some of the industry's best practices.
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/anekenonso1">Follow on Twitter</a>
-			<a href="//github.com/anekenonso">GitHub</a>
+			<a href="//twitter.com/anekenonso1"><g-image alt="twitter" class src="~/assets/images/twitter.png" width="30px"/></a>
+			<a href="//github.com/anekenonso"><g-image alt="twitter" class src="~/assets/images/github.png" width="30px"/></a>
+			<a href="https://www.upwork.com/o/profiles/users/~0109de556cd2771e84/?s=1110580755057594368">
+			<g-image alt="twitter" class src="~/assets/images/upwork.png" width="30px"/>
+			</a>
+			<a href="///www.linkedin.com/in/okenwakenneth/"><g-image alt="twitter" class src="~/assets/images/linkedin.png" width="30px" /></a>
 		</p>
 
 	</div>
@@ -48,6 +53,7 @@ export default {
 	}
 
 	&__intro {
+		margin-top: -10px;	
 		opacity: .8;
 	}
 
