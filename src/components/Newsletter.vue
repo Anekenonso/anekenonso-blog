@@ -7,10 +7,10 @@
         
     <form
       class="form"
-      action="https://tinyletter.com/lauragift21"
+      action="https://tinyletter.com/anekenonso"
       method="post"
       target="popupwindow"
-      onsubmit="window.open('https://tinyletter.com/lauragift21', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+      onsubmit="window.open('https://tinyletter.com/anekenonso', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
     >
       <input
         type="text"
