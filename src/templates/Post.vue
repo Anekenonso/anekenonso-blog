@@ -32,6 +32,7 @@
 <script>
 import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
+import Newsletter from '~/components/Newsletter'
 import Author from '~/components/Author.vue'
 
 export default {
