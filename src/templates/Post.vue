@@ -25,6 +25,8 @@
       <!-- Add comment widgets here -->
     </div>
 
+   <!-- add the newsletter-->
+   <Newsletter class="post-newsletter"/>
     <Author class="post-author" />
   </Layout>
 </template>
@@ -39,7 +41,8 @@ export default {
   components: {
     Author,
     PostMeta,
-    PostTags
+    PostTags,
+    Newsletter
   },
   metaInfo () {
     return {
