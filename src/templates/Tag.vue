@@ -42,7 +42,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'okenwa'
+    title: 'Home'
   }
 }
 </script>
