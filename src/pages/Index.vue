@@ -35,6 +35,7 @@ query {
 </page-query>
 
 <script>
+import { Pager } from "gridsome"
 import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
 
@@ -44,7 +45,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'okenwa'
+    title: 'Home'
   }
 }
 </script>
