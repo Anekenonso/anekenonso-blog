@@ -8,6 +8,7 @@
       
       <div class="header__right">        
         <ToggleTheme />
+        <Nav/>
       </div>
     </header>
 
@@ -25,6 +26,7 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Nav from '~/components/Nav.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
 
 export default {
@@ -33,6 +35,7 @@ export default {
   },
   components: {
     Logo,
+    Nav,
     ToggleTheme
   }
 }
