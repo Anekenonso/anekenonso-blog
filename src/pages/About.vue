@@ -57,7 +57,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scooped>
 .about {
   min-height: 100vh;
 
@@ -94,7 +94,7 @@ export default {
 
 .pic {
   border-radius: 50%;
-  height: 50vh;
+  height: 300px;
 }
 
 @media only screen and (max-width: 650px) {
@@ -104,11 +104,12 @@ export default {
       flex-direction: column;
 
       .bio {
-        width: 22em;
+        width: 20rem;
         text-align: center;
       }
 
       .headshot {
+        border-radius: 50%;
         display: none;
       }
     }
