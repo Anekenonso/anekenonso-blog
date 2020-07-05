@@ -1,0 +1,45 @@
+---
+title: "Understanding JavaScript promise"
+description: "In this article we are going to talk about javascript promise and take a look at some use case and best practices"
+date: 2020-07-03
+published: false
+canonical_url: true
+tags: ['javascript', 'Promise']
+---
+
+In this article we are going to talk about javascript promise and take a look at some use case and best practices.
+
+In [MDN Mozilla]('https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises') Documentation on javascript Promise, Promise is defined as  "A Promise is an object representing the eventual completion or failure of an asynchronous operation.". 
+
+What this mean in simple tone is that, Promise in javaScript is an object which can be returned when a task is going on.
+
+A promise is an object which can be returned when a task is going on and when a task is not happening or done at the same time or speed with other task. 
+
+Does that make sense ? Maybe not. So lets get technical with the explanation below.
+
+A promise is an object which can be returned synchronously from a asynchronous function.
+
+A promise is settled of it's not pending, that is, if it has not been resolved or rejected.  A  promise continues to run as long as it have not been rejected.
+
+Three things are mainly involved in a promise, **resolve()**, **reject()** and **Pending**.
+
+You can look at **resolve()** as a onFulfilled() function which literary means it is fulfilled/completed.
+
+**reject()** which is self explanatory, when it is rejected.
+
+**Pending** means it have not been rejected or Fulfilled. You can look at it as seating on the fence, have not made a choice yet.
+
+Sometimes you hear/read people use **resolved** or **settled** to actually mean the same thing. Which is not it have been completed and not pending.
+
+How about a little exercise to kind of show you how this works?.
+
+```javascript
+   const hold = time => new Promise((resolve) => setTimeout(resolve, time));
+
+hold(3000).then(() => console.log(' waited then now this');
+```
+
+The **hold(3000)** call will hold it's chill for 3000ms which is 3 seconds and then prints out "waited then now this".  You use the **.then()** method that is used to pass handlers which can take the resolve or reject value instead of pending.
+
+A standard for promises was defined by the [Promise/A+ specification]("https://promisesaplus.com/implementations") community. There are many implementations which conform to the standard, including the JavaScript standard ECMAScript promises.
+
