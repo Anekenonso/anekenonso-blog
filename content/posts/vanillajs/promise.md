@@ -19,7 +19,7 @@ Does that make sense ? Maybe not. So lets get technical with the explanation bel
 
 A promise is an object which can be returned synchronously from a asynchronous function.
 
-A promise is settled of it's not pending, that is, if it has not been resolved or rejected.  A  promise continues to run as long as it have not been rejected.
+A promise is settled if it's not pending, that is, if it has been resolved or rejected.  A  promise continues to run as long as it have not been rejected.
 
 Three things are mainly involved in a promise, **resolve()**, **reject()** and **Pending**.
 
@@ -43,3 +43,41 @@ The **hold(3000)** call will hold it's chill for 3000ms which is 3 seconds and t
 
 A standard for promises was defined by the [Promise/A+ specification]("https://promisesaplus.com/implementations") community. There are many implementations which conform to the standard, including the JavaScript standard ECMAScript promises.
 
+Here is another simple example of a promise
+```javascript
+let promise = new Promise((resolve, reject) => {
+
+    var a = 10;
+    var b = 20;
+
+    if (a < b) {
+        resolve('you are correct');
+    } else {
+        reject('you are wrong');
+    }
+});
+
+promise.then((message) => {
+    console.log('this belong to the resolve ' + message);
+}).catch((message) => {
+    console.log('and this is rejected ' + message)
+});
+```
+We defined a new promise that takes two parameter, resolve and reject. Then we create two variables and assign some numbers to each of them. With an **if** statement to check if true or not, if true the **resolve()** gets called else the 
+**reject()** gets called.
+
+```javascript
+promise.then((message) => {
+   console.log('this belong to the resolve ' + message);
+})
+```
+This get's called if the statement is true.
+
+```javascript
+.catch((message) => {
+    console.log('and this is rejected ' + message)
+});
+```
+And this gets called if the statement is false.
+
+Promise in javascript is like promise in real life. You promise something and then you resolve or reject that thing or you catch an error.
