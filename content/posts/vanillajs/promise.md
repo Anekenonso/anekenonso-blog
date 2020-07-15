@@ -2,18 +2,18 @@
 title: "Understanding JavaScript promise"
 description: "In this article we are going to talk about javascript promise and take a look at some use case and best practices"
 date: 2020-07-15
-published: false
+published: true
 canonical_url: true
 tags: ['javascript', 'Promise']
 ---
 
 In this article we are going to talk about javascript promise and take a look at some use case and best practices.
 
-In [MDN Mozilla]('https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises') Documentation on javascript Promise, Promise is defined as  "an object representing the eventual completion or failure of an asynchronous operation.". 
+In [MDN Mozilla]('https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises') Documentation on javascript Promise, Promise is defined as  "an object representing the eventual completion or failure of an asynchronous operation.".
 
 What this mean in simple tone is that, Promise in javaScript is an object which can be returned when a task is going on or when a task is complete.
 
-A promise is an object which can be returned when a task is going on and when a task is not happening or done at the same time or speed with other task. 
+A promise is an object which can be returned when a task is going on and when a task is not happening or done at the same time or speed with other task.
 
 Does that make sense ? Maybe not. So lets get technical with the explanation below.
 
@@ -34,8 +34,7 @@ Sometimes you hear/read people use **resolved** or **settled** to actually mean 
 How about a little exercise to kind of show you how this works?.
 
 ```javascript
-   const hold = time => new Promise((resolve) => 
-   
+   const hold = time => new Promise((resolve) =>
    setTimeout(resolve, time));
 
    hold(3000).then(() =>
@@ -48,6 +47,7 @@ The **hold(3000)** call will hold it's chill for 3000ms which is 3 seconds and t
 A standard for promises was defined by the [Promise/A+ specification]("https://promisesaplus.com/implementations") community. There are many implementations which conform to the standard, including the JavaScript standard ECMAScript promises.
 
 Here is another simple example of a promise
+
 ```javascript
 let promise = new Promise((resolve, reject) => {
 
@@ -67,14 +67,15 @@ promise.then((message) => {
     console.log('and this is rejected ' + message)
 });
 ```
-We defined a new promise that takes two parameter, resolve and reject. Then we create two variables and assign some numbers to each of them. With an **if** statement to check if true or not, if true the **resolve()** gets called else the 
-**reject()** gets called.
+
+We defined a new promise that takes two parameter, resolve and reject. Then we create two variables and assign some numbers to each of them. With an **if** statement to check if true or not, if true the **resolve()** gets called else the **reject()** gets called.
 
 ```javascript
 promise.then((message) => {
    console.log('this belong to the resolve ' + message);
 })
 ```
+
 This get's called if the statement is true.
 
 ```javascript
@@ -82,6 +83,7 @@ This get's called if the statement is true.
     console.log('and this is rejected ' + message)
 });
 ```
+
 And this gets called if the statement is false.
 
 Promise in javascript is like promise in real life. You promise something and then you resolve or reject that thing or you catch an error.
