@@ -1,10 +1,11 @@
 ---
-title: "Understanding JavaScript promise"
-description: "In this article we are going to talk about javascript promise and take a look at some use case and best practices"
+title: Introduction To Javascript promise
 date: 2020-07-15
 published: true
+tags: ['promise', 'software', 'javascript']
 canonical_url: true
-tags: ['javascript', 'Promise']
+description: "In this article we are going to talk about javascript promise and take a look at some use case and best practices. Apromise is an object.."
+
 ---
 
 In this article we are going to talk about javascript promise and take a look at some use case and best practices.
